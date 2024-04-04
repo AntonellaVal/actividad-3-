@@ -1,0 +1,58 @@
+
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    flex-direction: column; 
+  }
+
+h1 {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.container {
+    max-width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+    text-align: center;
+  }
+.image {
+    flex: 1;
+    margin-right: 20px;
+    margin-top: 5.3rem;
+  }
+.image img {
+    max-width: 100%;
+    height: auto;
+  }
+.bio-description {
+    flex: 1;
+    text-align: left;
+    font-size: small;
+  }
+
+.titulo-mascota hr{
+    width: 60rem;   
+}
+
+.texto-link {
+    position: absolute;
+    top: 10px; 
+    left: 10px;
+    display: flex; 
+    align-items: center; 
+}
+
+.texto-link a {
+    color: orange;
+}
+
+samp {
+    font-family: Arial;
+}
