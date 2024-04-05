@@ -26,7 +26,7 @@ body {
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 24px;
-    padding-bottom: 24px;
+    padding-bottom: 30.1px;
 }
 
 .header .nav-links a {
@@ -72,4 +72,31 @@ body {
     font-size: 20px;
     text-align: left;
     margin-bottom: 17px;
+}
+
+.carousel-inner{
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+}
+
+.carousel-caption {
+    text-align: left;
+}
+
+.carousel-caption h5 {
+    font-weight: bold;
+    color: orange;
+    font-size: 3rem;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.carousel-caption p {
+    padding-top: 0;
+}
+
+.carousel-caption{
+    position: absolute;
+    right: 80%;
+    padding-bottom: 18rem;
 }
